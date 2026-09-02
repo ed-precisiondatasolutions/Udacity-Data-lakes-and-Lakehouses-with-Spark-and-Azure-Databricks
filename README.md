@@ -10,7 +10,7 @@ The first code cell creates a SparkContext object. With the SparkContext, you ca
 
 ### 
 # You might have noticed this code in the screencast.
-#
+###
 # import findspark
 # findspark.init('spark-2.3.2-bin-hadoop2.7')
 #
@@ -20,7 +20,7 @@ The first code cell creates a SparkContext object. With the SparkContext, you ca
 # However, the workspaces already have Spark installed and you do not
 # need to use the findspark module
 #
-###
+
 
 "RDD" in the output refers to resilient distributed dataset. RDDs are exactly what they say they are: fault-tolerant datasets distributed across a cluster. This is how Spark stores data.
 
